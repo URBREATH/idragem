@@ -1,9 +1,0 @@
-<main class="participatory-space__container">
-  <%= announcement = render(partial: "decidim/shared/component_announcement") %>
-
-  <%= append_stylesheet_pack_tag "decidim_iframe" %>
-
-  <section allowfullscreen id="<%= viewport_width? ? "iframe-block" : "html-block-html" %>" class="iframe layout-main__section">
-    <%= iframe %>
-  </section>
-</main>

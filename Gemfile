@@ -14,6 +14,8 @@ gem "decidim", DECIDIM_VERSION
 
 gem "decidim-iframe", path: "."
 
+gem "decidim-apiauth", git: "https://github.com/DanieleNoto/decidim-module-apiauth.git"
+
 gem "bootsnap", "~> 1.4"
 gem "puma", ">= 5.6.2"
 
