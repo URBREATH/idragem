@@ -5,7 +5,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "idra", git: "git@github.com:mainio/decidim-module-iframe.git"
+gem "idra",  git: "https://github.com/URBREATH/idragem"
 ```
 
 And then execute:
