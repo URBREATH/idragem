@@ -8,7 +8,7 @@ base_path = ""
 base_path = "../" if File.basename(__dir__) == "development_app"
 require_relative "#{base_path}lib/decidim/iframe/version"
 
-DECIDIM_VERSION = Decidim::Iframe.decidim_version
+DECIDIM_VERSION = ">= 0.28.0"
 
 gem "decidim", DECIDIM_VERSION
 
