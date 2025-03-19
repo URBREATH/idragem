@@ -267,7 +267,11 @@
   <!-- Help section -->
   <%= render partial: "help_section" %>
 
- <% if current_user&.admin? %>
+
+<--! Admin settings for idra url -->
+
+
+  <% if current_user&.admin? %>
   <div class="centered-form">
     <%= form_with(url: idra_path, method: :get, class: "form") do |f| %>
       <%= f.label :api_url, "Inserisci l'API URL" %>
