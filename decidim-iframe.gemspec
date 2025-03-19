@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
 
   s.name = "idra"
   s.summary = "A decidim idra module"
-  s.description = "Data catalogue collector for decidim"
+  s.description = "Data catalogue module for Decidim"
 
   s.files = Dir["{app,config,lib,vendor,db}/**/*", "LICENSE-AGPLv3.txt", "Rakefile", "package.json", "README.md", "CHANGELOG.md"]
 

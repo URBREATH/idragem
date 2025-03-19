@@ -5,12 +5,14 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "idra", git: "https://github.com/URBREATH/idragem.git"
+gem "idra", git: "git@github.com:mainio/decidim-module-iframe.git"
 ```
 
 And then execute:
 
 ```bash
 $ bundle install
-$ bin/rails db:migrate
+```
+
+
 

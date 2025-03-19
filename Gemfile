@@ -8,9 +8,15 @@ base_path = ""
 base_path = "../" if File.basename(__dir__) == "development_app"
 require_relative "#{base_path}lib/decidim/iframe/version"
 
-DECIDIM_VERSION = "0.29.1"
+DECIDIM_VERSION = Decidim::Iframe.decidim_version
 
 gem "decidim", DECIDIM_VERSION
+
+gem "decidim-iframe", path: "."
+
+gem "decidim-apiauth", git: "https://github.com/DanieleNoto/decidim-module-apiauth.git"
+
+decidim "idra", path: '.'
 
 gem "bootsnap", "~> 1.4"
 gem "puma", ">= 5.6.2"
