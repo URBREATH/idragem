@@ -11,6 +11,8 @@ Gem::Specification.new do |s|
   s.required_ruby_version = ">= 3.1"
 
   s.name = "idra"
+  s.summary = "A decidim idra module"
+  s.description = "A data catalogue collector for decidim"
 
   s.files = Dir["{app,config,lib,vendor,db}/**/*", "LICENSE-AGPLv3.txt", "Rakefile", "package.json", "README.md", "CHANGELOG.md"]
 
